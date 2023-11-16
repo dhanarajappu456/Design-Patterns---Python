@@ -74,7 +74,7 @@ composite1.attach(leaf2)
 #composite contain the whole composite1 as child
 composite2.attach(composite1)
 
-#now composite2 its info it childs info and their childs info and so on recursively
+#now composite2 logs its info it childs info and their childs info and so on recursively
 composite2.info()
 ```
 To maintain the heirarchical relation , we use composite design pattern 
