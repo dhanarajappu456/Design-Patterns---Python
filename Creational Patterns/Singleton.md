@@ -17,6 +17,6 @@ class Singleton:
         self.initialised = True
 ```
 # Example usage:
-a = Singleton()  # This initializes the singleton \
+a = Singleton()  # This initializes the singleton <br\>
 
 b = Singleton()  # This returns the existing instance, doesn't reinitialize
