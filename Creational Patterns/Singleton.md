@@ -15,8 +15,8 @@ class Singleton:
         #this gets printed, only very first time
         print("initialised")
         self.initialised = True
-
 ```
 # Example usage:
-a = Singleton()  # This initializes the singleton
+a = Singleton()  # This initializes the singleton \
+
 b = Singleton()  # This returns the existing instance, doesn't reinitialize
