@@ -1,6 +1,10 @@
 # Creational Design Patterns
 
-This repository showcases various creational design patterns implemented in Python. Creational patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+This repository showcases various creational design patterns implemented in Python. Creational patterns deal with object creation mechanisms, providing flexibility in creating objects, composing them, and representing their instances.
+
+## What are Creational Patterns?
+
+Creational design patterns focus on the process of object creation, providing solutions to instantiation complexities. They help make a system independent of its object creation, composition, and representation, providing more flexibility.
 
 ## Patterns Included
 
