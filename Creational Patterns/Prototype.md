@@ -1,6 +1,9 @@
 
 The Prototype Pattern is used when you want to create new objects by copying an existing object, known as the prototype. Instead of creating a new instance of a class using a constructor, the prototype pattern involves creating new objects by copying an existing object, known as the prototype.
 
+This is useful to save time consuming object creation say if object is created with info from some database reads, so performing this reads, for each object would be time consuming and cost heavy 
+in such scenarios , you can use this pattern where it clones the first object that read the database so that  further object can be created from this , rather than reading the database directly 
+
 Here are some scenarios where the Prototype Pattern is commonly used:
 
 Creating Objects with Costly Initialization:
