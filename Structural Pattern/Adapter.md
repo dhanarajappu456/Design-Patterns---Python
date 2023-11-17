@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod 
 
 
-# 1)without adapater - client had to check for the type of instance , to call the appropriate 
+## 1)Without adapater - client had to check for the type of instance , to call the appropriate 
 #method, since method signature or interface of the object is different 
 
 ```
@@ -48,7 +48,7 @@ for obj  in objects:
 
 
 #-----------------------------------------------------------------------------------------------------------
-#2)with adapter  - the method of object b is made to adapt to the method signature of A, so that client can call just method_a on any object
+## 2)With adapter  - the method of object b is made to adapt to the method signature of A, so that client can call just method_a on any object
 
 ```
 
