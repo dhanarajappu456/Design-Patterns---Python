@@ -6,7 +6,7 @@ affecting the inner object
 # .
 You want the option to later remove the decorator from an object in case you no longer need it
 
-# .
+# . 
 It is an alternative method to creating multiple combinations of subclasses. I.e., Instead of
 creating a subclass with all combinations of objects A, B, C in any order, and including/
 excluding objects, you could create 3 objects that can decorate each other in any order you
