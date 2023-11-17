@@ -62,11 +62,3 @@ Behavioral design patterns in software development address the interactions and 
 ## Usage
 
 Explore each pattern's folder for detailed examples and implementation in various programming languages.
-
-## Contributing
-
-Contributions are welcome! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
