@@ -23,7 +23,7 @@ class FlyWeight(IFlyEeight):
     
     print(f"The object is {self.value}  id is {id(self)}")
 
-
+#Factory is responsible for managing the creation of objects,(either gives existing object or new objects)
 class FlyWeightFactory:
   
   def __init__(self):
