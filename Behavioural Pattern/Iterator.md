@@ -1,7 +1,7 @@
 
 The Iterator will commonly contain two methods that perform the following concepts.<br>
-        next: returns the next object in the aggregate (collection, object).
-       has_next: returns a Boolean indicating if the Iterable is at the end of the iteration or not.<br>
+        <strong> next</strong> : returns the next object in the aggregate (collection, object).<br>
+       <strong> has_next</strong>: returns a Boolean indicating if the Iterable is at the end of the iteration or not.<br>
 The benefits of using the Iterator pattern are that the client can traverse a collection of
 aggregates(objects) without needing to understand their internal representations and/or data
 structures
