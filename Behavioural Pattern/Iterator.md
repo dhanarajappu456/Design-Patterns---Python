@@ -42,6 +42,7 @@ class Iterator(Iiterable):
      aggr  = self.aggregates[self.ind]
      self.ind+=1
      return aggr
+# raise the exception with any number of parameter , which can be accessed in catch with exception.args-> where exception is the exception object
     raise Exception("AtEndOfIteratorException" ,"End of Iteration")
    
      
