@@ -27,10 +27,8 @@ If all observers are interested in the same information, a push-based approach c
 it is fast- realtime- as soon as there is an update in subject, it notifies the observers and more decoupled
 
 ```
+below is push based observer - where usbject pushes notification to observer
 from abc import ABC, abstractmethod
-
-
-
 #subject/publisher interface
 class ISubject(ABC):
   
