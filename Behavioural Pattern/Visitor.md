@@ -11,3 +11,77 @@ fashion, you can allow them to implement a Visitor interface. <br>
 
 The Visitor pattern involves defining a visitor class that implements the operations to be performed on the elements, and then each element class accepts a visitor,<br>
 allowing it to perform the operation on the element.
+
+```
+
+from abc import ABC, abstractmethod
+
+#interface for all the Elements that the visitor can visit, and there by perform the operation on each element 
+
+class IVisitable(ABC):
+  
+  @abstractmethod
+  def accept(self,visitor):
+    pass
+
+#the element (node in the heirarchy)
+class Element(IVisitable):
+  
+  def __init__(self,name,parent=None):
+    self.name  = name
+    #keeps a collection of descendants
+    self.elements = set()
+    if parent:
+      parent.elements.add(self)
+  
+  #recursively allows to visit all the descendant
+  def accept(self,visitor):
+    
+    for element in self.elements:
+      
+      element.accept(visitor)
+    
+    visitor.visit(self)
+  
+    
+
+#interface for the visitor(which contain the operation to perform  - here visit operation, which 
+#print the name of each element )
+class IVisitor(ABC):
+  
+  def visit(self,element):
+    pass
+
+class PrintNameVisitor(IVisitor):
+  #the operation that visitor perform on each element
+  def visit(self,element):
+    
+    print(f"element {element.name}")
+
+#client 
+#create the elements in the heirarchy 
+element_a =Element("A")
+element_b =Element("B",element_a)
+element_c =Element("C",element_a)
+element_d =Element("D",element_b)
+
+#create the visitor
+visitor = PrintNameVisitor()
+
+#visiting each element or element accepting the visitor to execute the operation on it 
+element_a.accept(visitor)
+
+'''
+prints 
+
+element D
+element B
+element C
+element A
+'''
+
+
+    
+  
+    
+    
