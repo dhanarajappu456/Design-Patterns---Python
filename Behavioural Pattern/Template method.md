@@ -7,11 +7,11 @@ This pattern promotes code reuse and allows for variations in the implementation
 
 <br><br>
 
-Consist of Abstract Class which has :
-1)Template method  defining the order or general outline of algo 
-2)Hooks - These are methods with default implementation or empty implementation 
+Consist of Abstract Class which has :<br>
+1)Template method  defining the order or general outline of algo <br>
+2)Hooks - These are methods with default implementation or empty implementation <br>
 the sublass/concrete class can implement them leave unimplemented (and use default implemenation)
-3) Abstract methods - they are abstract methods - that subclass has to implement 
+3) Abstract methods - they are abstract methods - that subclass has to implement <br>
 
 
 ```
