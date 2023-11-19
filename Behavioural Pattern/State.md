@@ -32,7 +32,7 @@ class StateC(IState):
   def __str__(self):
     return "state C"
 
-#context is the object , which might changes the state when its behaviour changes
+#context is the object , which might changes the internal state and hence the behaviour
 #this pbject has reference to different state object, denoting different states
 class Context:
   
