@@ -6,8 +6,8 @@ The key idea behind the Template Method Pattern is to define the structure of an
 This pattern promotes code reuse and allows for variations in the implementation of certain steps without changing the overall algorithm.
 
 <br><br>
-
-Consist of Abstract Class which has :<br>
+It has Abstract class and Subclass or concrete class
+The Abstract Class consist of  :<br>
 1)Template method  defining the order or general outline of algo <br>
 2)Hooks - These are methods with default implementation or empty implementation <br>
 the sublass/concrete class can implement them leave unimplemented (and use default implemenation)<br>
