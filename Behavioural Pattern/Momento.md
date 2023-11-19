@@ -10,7 +10,7 @@ REDO functionality within your application.<br>
 The difference between the Command and the Memento patterns for UNDO/REDO, is that in the
 Command pattern, you re-execute commands in the same order that changed attributes of a state,
 and with the Memento, you completely replace the state by retrieving from a cache/store.
-
+```
 #this is object respresnting a stored state
 class Momento:
   
