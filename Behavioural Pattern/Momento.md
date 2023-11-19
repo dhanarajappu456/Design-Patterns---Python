@@ -41,4 +41,5 @@ class CareTaker:
     self.originator.state = momento.state
 
 #client
-
+originator  = Originator()
+care_taker =CareTaker()
