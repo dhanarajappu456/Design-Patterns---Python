@@ -1,6 +1,8 @@
+
+
 The Strategy Pattern is similar to the State Pattern, except that the client passes in the algorithm
 that the context should run and the execution of the algorithm does not affect the state of the context.<br>
-=
+
 The algorithm should be contained within a class that implements the particular strategies interface.<br>
 
 An application that sorts data is a good example of where you can incorporate the Strategy pattern.
