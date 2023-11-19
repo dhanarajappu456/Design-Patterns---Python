@@ -3,7 +3,13 @@ ___________________________
 In the pull-based Observer pattern, observers explicitly request the information they need from the subject when they are notified of a change.
 The subject typically provides a method that observers can call to retrieve the updated information.
 
-here the observer and subject is more coupled, since observer need to know methods of subject it can call, so changes in subject affect the observer<br><br>
+here the observer and subject is more coupled, since observer need to know methods of subject it can call, so changes in subject affect the observer
+
+When to Use Push-Based Observer:
+-------------------------------
+Observers Need Different Information:
+If different observers are interested in different aspects of the subject's state, a pull-based approach allows each observer to request the specific information it requires.<br><br>
+
 
 2. Push-Based Observer:
 ___________________________
@@ -12,7 +18,7 @@ In the push-based Observer pattern, the subject sends the observers detailed inf
  The subject typically provides a method that allows observers to be directly notified of the change.
 
 When to Use Push-Based Observer:
-
+---------------------------------
 Observers Need the Same Information:
 If all observers are interested in the same information, a push-based approach can simplify the code, as observers don't need to explicitly request the information.
 
