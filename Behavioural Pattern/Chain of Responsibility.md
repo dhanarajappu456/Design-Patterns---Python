@@ -1,3 +1,7 @@
+# used in ATM  for getting correct denominations , where each denomination handled by each successor class in the chain 
+# used in vendin machine
+# used in logger where each successor handle a type of log message like error, debug etc...
+
 # .
 In this pattern, an object is passed to a Successor, and depending on some kind of logic, will or
 won't be passed onto another successor and processed. There can be any number of different
