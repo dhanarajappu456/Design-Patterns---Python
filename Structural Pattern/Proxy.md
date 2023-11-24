@@ -18,6 +18,7 @@ subject directly
 # . 
 The Proxy design pattern may also be called the Surrogate design pattern
 
+# proxy design used in providing caching, access restriction , preprocessing before a request and post processing the request
 
 ```
 
