@@ -80,6 +80,14 @@ composite2.info()
 To maintain the heirarchical relation , we use composite design pattern 
 
 ## used in designing file system and hierarchical relationship
+
+
+java eg 
+
+filesystem and arithmetic expression evaluation 
+
+
+https://gitlab.com/shrayansh8/interviewcodingpractise/-/tree/main/src/LowLevelDesign/DesignPatterns/CompositeDesignPattern
   
 
   
