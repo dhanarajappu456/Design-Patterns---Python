@@ -50,6 +50,8 @@ for obj  in objects:
 # ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## 2)With adapter  - the method of object b is made to adapt to the method signature of A, so that client can call just method_a on any object
 
+
+
 ```
 
 class IA(ABC):
@@ -73,7 +75,7 @@ class B(IB):
   
   def method_b(self):
     print(f"method b is called...")
-    
+#Making existing interface/implementation(B- called as adpatee) to adapt to the requirement of client(that is client know #only A types and its methods)     
 class ClassBAdapter(IA):
   def method_a(self):
     #calling the method of B object inside the adapter, so that clinet can call this method still 
