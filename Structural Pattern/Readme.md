@@ -6,6 +6,9 @@ This repository contains examples of various structural design patterns implemen
 
 Structural design patterns deal with the composition of classes or objects, defining how they can be combined to form larger structures. These patterns provide solutions for creating flexible, modular, and maintainable software by organizing components in a clear and reusable manner.
 
+
+Basically solving bigger problems(with bigger structure) using smaller problems(smaller structure) 
+
 ## Patterns Included
 
 ### 1. **Adapter Pattern**
