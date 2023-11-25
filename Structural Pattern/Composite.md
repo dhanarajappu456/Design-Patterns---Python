@@ -78,6 +78,8 @@ composite2.attach(composite1)
 composite2.info()
 ```
 To maintain the heirarchical relation , we use composite design pattern 
+
+## used in designing file system and hierarchical relationship
   
 
   
