@@ -73,4 +73,5 @@ med.method_a()
 #ColleagueA may want to communicate or request ColleagueB info
 med.method_b()
 ```
-###### Used in online auction/bidding system.
+#### Used in online auction/bidding system.
+#### Airline management system , where all flight that need to land talk to common airport  terminal system
