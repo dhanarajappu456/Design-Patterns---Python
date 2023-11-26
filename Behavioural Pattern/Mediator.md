@@ -72,4 +72,5 @@ med =Mediator(coll_a, coll_b)
 med.method_a()
 #ColleagueA may want to communicate or request ColleagueB info
 med.method_b()
-    
+```
+###### Used in online auction/bidding system.
