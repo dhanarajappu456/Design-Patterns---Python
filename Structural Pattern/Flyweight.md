@@ -5,6 +5,11 @@ where a large amount of memory or other resources are used, you can modify your 
 multiple instances simultaneously by using some kind of reference to the shared object instead
 
 
+Objects usually have intrinsic and extrinsic data , <br>
+__________________________________________________________________<br>
+inorder to make use of flyweight and thus manage memory efficiently , we need to keep intrinsic data(that is data that is shared b/w the objects) while creating the flywight object<br>
+based on which when the object with same , intrinsic data is needed, we can just return the object that is created before 
+
 ```
 from abc import ABC , abstractmethod
 
