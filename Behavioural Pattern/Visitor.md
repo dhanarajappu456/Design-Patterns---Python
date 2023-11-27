@@ -13,7 +13,7 @@ The Visitor pattern involves defining a visitor class that implements the operat
 allowing it to perform the operation on the element.
 
 
-Visitor pattern also have <strong> <i>  double dispatching concept</i> </strong> , that is the method invoked depend on the 2 types of object in  first is the
+Visitor pattern also have <strong> <i>  double dispatching concept</i> </strong> , that is the method invoked depend on the 2 types of objects :<br> 
 1)the visitor object on which the visit called depend on the concrete implemention of visitor passed as argument to the accept method of element <br> 
 2) and also the visitable object on which the actual visit method get called depend on the concerete implementation of visitable intrtface that is passed to visit method of visitor
 ```
