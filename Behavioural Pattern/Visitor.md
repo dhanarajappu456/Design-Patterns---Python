@@ -12,6 +12,10 @@ fashion, you can allow them to implement a Visitor interface. <br>
 The Visitor pattern involves defining a visitor class that implements the operations to be performed on the elements, and then each element class accepts a visitor,<br>
 allowing it to perform the operation on the element.
 
+
+Visitor pattern also have <Strong><i> double dispatching concept <Strong><i> , that is the method invoked depend on the 2 types of object in  first is the
+1)the visitor object on which the visit called depend on the concrete implemention of visitor passed as argument to the accept method of element <br> 
+2) and also the visitable object on which the actual visit method get called depend on the concerete implementation of visitable intrtface that is passed to visit method of visitor
 ```
 
 from abc import ABC, abstractmethod
