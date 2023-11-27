@@ -54,7 +54,7 @@ Facade().method_for_c()
 
 
 ```
-You can hide sytem complexity from client
+You can hide sytem complexity from client<br>
 You can expose only required info / method to a client through a facade
     
     
