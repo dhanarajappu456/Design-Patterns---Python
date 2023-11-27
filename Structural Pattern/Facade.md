@@ -51,7 +51,11 @@ class Facade:
 Facade().method_for_a()
 Facade().method_for_b()
 Facade().method_for_c()
-    
+
+
+```
+You can hide sytem complexity from client
+You can expose only required info / method to a client through a facade
     
     
     
