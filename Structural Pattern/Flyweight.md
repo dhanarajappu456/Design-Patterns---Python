@@ -7,9 +7,12 @@ multiple instances simultaneously by using some kind of reference to the shared 
 
 Objects usually have intrinsic and extrinsic data , <br>
 __________________________________________________________________<br>
-inorder to make use of flyweight and thus manage memory efficiently , we need to keep intrinsic data(that is data that is shared b/w the objects) while creating the flywight object<br>
+inorder to make use of flyweight and thus manage memory efficiently , we need to keep create a flyweight object with intrinsicdata  (ie, ata that is shared b/w the objects)  with in them and not including the extrinsic data(data that vary b/w the objects) while creating the flywight object<br>
 based on which when the object with same , intrinsic data is needed, we can just return the object that is created before 
 
+
+eg: in word processer we need to type a characters specified in 2d dimension , then intrinsic data may be the data like letter name<br>
+the coordinate can vary , so we create fly weight with letter name as an attribute, thus we can reuse this object at different coordinate<br>
 ```
 from abc import ABC , abstractmethod
 
