@@ -64,6 +64,6 @@ square.draw()
 
 
 ```
-You can see the implemnetation is independent of the abstraction , Shape , you can add new implmenation  without adding a shape 
+You can see the implemnetation is independent of the abstraction , Shape , you can add new implmenation  without adding a shape <br>
 You can add new shape without adding new implementation , and make use of existing implementation and also change b/w implementation
 
