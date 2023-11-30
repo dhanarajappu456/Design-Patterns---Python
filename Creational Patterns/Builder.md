@@ -1,3 +1,24 @@
+
+builder pattern used to create complex objects at runtime, 
+it is useful when u need to include only some component(attributes) in creating the final product 
+
+
+builder pattern solves the telescopic problem , where u need to have multiple and huge number of constructor for a product to be overloaded based on the attribute that you would need to use to create the product
+
+
+it is also useful when you need to invoke mtehods  on object in a particular order than return the object 
+
+for example conside house object, the house object is completeed when 
+we  call
+a)make_plot 
+b)make_wall
+c)put_window, 
+d)put_door
+e)make_ceiling 
+
+and so on.. 
+finally house is returned
+
 ```
 from abc import ABC,abstractmethod
 
@@ -78,9 +99,3 @@ castle.specification()
 mansion = MansionDirector.construct()
 mansion.specification()
 ```
-
-builder pattern used to create complex objects at runtime, 
-it is useful when u need to include only some component(attributes) in creating the final product 
-
-
-builder pattern solves the telescopic problem , where u need to have multiple and huge number of constructor for a product to be overloaded based on the attribute that you would need to use to create the product
