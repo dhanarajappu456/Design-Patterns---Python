@@ -31,6 +31,8 @@ we  call
 
 
 and so on.. 
+
+note , in the after each intermediate steps the builder object itself id returned. It is at the end the product / house is returned when the build method is called 
 finally house is returned
 
 ```
