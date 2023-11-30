@@ -10,6 +10,8 @@ it is useful when u need to include only some component(attributes) in creating 
 
 for example conside house object, the house object is completeed when 
 we  call
+
+<html> 
 <ul>
 a)make_plot 
 b)make_wall
@@ -18,6 +20,9 @@ d)put_door
 e)make_ceiling 
   
 </ul>
+
+
+</html>
 
 
 and so on.. 
