@@ -10,11 +10,15 @@ it is useful when u need to include only some component(attributes) in creating 
 
 for example conside house object, the house object is completeed when 
 we  call
+<ul>
 a)make_plot 
 b)make_wall
 c)put_window, 
 d)put_door
 e)make_ceiling 
+  
+</ul>
+
 
 and so on.. 
 finally house is returned
