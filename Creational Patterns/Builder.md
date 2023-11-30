@@ -13,11 +13,19 @@ we  call
 
 <html> 
 <ul>
-a)make_plot 
-b)make_wall
-c)put_window, 
-d)put_door
-e)make_ceiling 
+  <li> </li>
+  a)make_plot 
+  
+
+   <li>    b)make_wall</li>
+
+
+   <li> c)put_window, </li>
+
+   <li> d)put_door</li>
+   <li>e)make_ceiling  </li>
+  
+
   
 </ul>
 
