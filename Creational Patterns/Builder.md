@@ -7,15 +7,11 @@ it is useful when u need to include only some component(attributes) in creating 
 #### when solving the telescopic problem for a class,say stuent , you will have builder calss having same attributes of strudent class ,  which you populate for the builder object by calling appropriate mehod on it 
 at end when you call build on  builder you basically instantiate a student object with constructor accepting the builder object constructed, from which strudent object retrieves all the attributes
 
-
-demerit: 
-
-as said there is a code duplication, where the builder also has same attributes or instance variables as the product(student) class
-
-
 # it is also useful when you need to invoke mtehods  on object in a particular order than return the object 
 
 for example conside house object, the house object is completeed when 
+
+
 we  call
 
 <html> 
@@ -41,6 +37,12 @@ and so on..
 
 note , in the after each intermediate steps the builder object itself id returned. It is at the end the product / house is returned when the build method is called 
 finally house is returned. 
+
+
+# demerit of  builder patter: 
+
+as said there is a code duplication, where the builder also has same attributes or instance variables as the product(student) class
+
 
 
 
