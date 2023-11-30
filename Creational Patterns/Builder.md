@@ -5,7 +5,7 @@ it is useful when u need to include only some component(attributes) in creating 
 
 # builder pattern solves the telescopic problem , where u need to have multiple and huge number of constructor for a product to be overloaded based on the attribute that you would need to use to create the product
 #### when solving the telescopic problem for a class,say stuent , you will have builder calss having same attributes of strudent class ,  which you populate for the builder object by calling appropriate mehod on it 
-at end when you call build in builder you basically instatiate a student object with constructor accepting the builder object constructed, from which strudent object retrieves all the attributes
+at end when you call build on  builder you basically instantiate a student object with constructor accepting the builder object constructed, from which strudent object retrieves all the attributes
 
 
 demerit: 
