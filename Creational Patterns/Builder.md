@@ -13,11 +13,8 @@ we  call
 
 <html> 
 <ul>
-  <li> </li>
-  a)make_plot 
-  
-
-   <li>    b)make_wall</li>
+    <li>  a)make_plot </li>
+   <li>  b)make_wall</li>
 
 
    <li> c)put_window, </li>
